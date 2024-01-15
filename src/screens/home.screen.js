@@ -42,7 +42,7 @@ export const HomeScreen =({navigation}) =>{
         // Assuming the API response contains an array of data
         setData(response);
       } catch (error) {
-        console.error('lauda data:', error);
+        console.error('Error fetching data:', error);
       }
     };
     // Fetch data only if the searchQuery is not empty
